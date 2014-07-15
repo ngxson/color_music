@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+   		android:summary=""
+   		android:title="Preference" >
+   	<CheckBoxPreference
+     android:key="checkBox1"
+     android:summary="Show album art on lock screen"
+     android:title="Lockscreen album art" />
+   	</PreferenceCategory>
+</PreferenceScreen>
