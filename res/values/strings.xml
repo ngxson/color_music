@@ -14,7 +14,7 @@
 ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
 ** See the License for the specific language governing permissions and 
 ** limitations under the License.
-*/
+*/
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -47,7 +47,7 @@
     2 - minutes
     3 - minutes%60
     4 - seconds
-    5 - second%60
+    5 - second%60
     -->
     <skip />
     <!-- Do not translate. Duration format for duration < 1 hour -->
@@ -63,7 +63,7 @@
     <string name="party_shuffle_off">Party shuffle off</string>
     <!--
          Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
-         The user will be prompted to confirm before deletion actually takes place
+         The user will be prompted to confirm before deletion actually takes place
     -->
     <string name="delete_item">Delete</string>
     <!-- Menu item to play back all the songs in the currently showing list in shuffle mode -->
@@ -316,8 +316,10 @@
 
     <!-- Menu text for the item controlling the audio effects panel [CHAR LIMIT=15] -->
     <string name="effectspanel">Sound effects</string>
-    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_setting">Preferences</string>
     <string name="hello_world">Hello world!</string>
-    <string name="setting">Setting</string>
+    <string name="setting">Preferences</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
 
 </resources>

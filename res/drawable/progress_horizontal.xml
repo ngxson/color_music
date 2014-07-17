@@ -17,17 +17,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@android:id/background">
-        <shape>
-            <gradient
-                android:startColor="#3f808080"
-                android:endColor="#7f000000"
-                android:angle="270"
-            />
-        </shape>
+        <clip android:drawable="@drawable/panel_now_playing_progress_bg"/>
     </item>
 
     <item android:id="@android:id/secondaryProgress">
-        <clip android:drawable="@drawable/panel_now_playing_progress_bg"/>
+        <clip android:drawable="@drawable/progress_secondary_holo_dark"/>
     </item>
 
     <!-- Can't actually use
@@ -35,15 +29,7 @@
         here, so fake it with a similar looking gradient.
     -->
     <item android:id="@android:id/progress">
-        <clip>
-            <shape>
-                    <gradient
-                        android:startColor="#ff85d20f"
-                        android:endColor="#ff466607"
-                        android:angle="270"
-                />
-            </shape>
-        </clip>
+        <clip android:drawable="@drawable/progress_bg"/>
     </item>
 
 
